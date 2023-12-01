@@ -36,7 +36,9 @@ const Profile = () => {
               <HStack>
                 <Text>@musa_nif_ali </Text>
                 <Show below="md">
-                  <Icon boxSize={10} as={FaInstagram} />
+                  <a href="https://instagram.com/musa_nif_ali?igshid=MzMyNGUyNmU2YQ==">
+                    <Icon boxSize={10} as={FaInstagram} />
+                  </a>
                 </Show>
               </HStack>
             </VStack>

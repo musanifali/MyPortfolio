@@ -39,7 +39,7 @@ const projects: Project[] = [
     image: ecommerce,
     description: "React, TypeScript, Node, AntDesign, React-Hook-Form",
     route: "/softwareeng",
-    repositoryURL: "https://github.com/GameHub-Repository",
+    repositoryURL: "https://github.com/musanifali/ShopFusion-F",
   },
 ];
 

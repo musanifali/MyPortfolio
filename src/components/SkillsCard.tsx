@@ -4,16 +4,16 @@ const SkillsCard = () => {
   const skills = [
     {
       name: "Frontend",
-      skills: ["Html", "CSS", "Javascript", "Typescript", "React"],
+      skills: ["Html", "CSS", "Javascript", "Typescript", "React", "Jest"],
       color: "teal",
     },
     {
       name: "Backend",
-      skills: ["Node Js", "Express Js", "Auth"],
+      skills: ["Node Js", "Express Js", "Auth", "JWT"],
       color: "blue",
     },
     { name: "Database", skills: ["My Sql", "MongoDB"], color: "green" },
-    { name: "Devops", skills: ["Git"], color: "pink" },
+    { name: "Devops", skills: ["Git", "GitHub", "BitBucket"], color: "pink" },
   ];
   return (
     <>
