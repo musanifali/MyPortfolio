@@ -4,7 +4,6 @@ import {
   Box,
   Button,
   Heading,
-  Text,
   Code,
   VStack,
   Image,
