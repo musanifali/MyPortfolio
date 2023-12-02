@@ -12,6 +12,7 @@ import SideBar from "./SideBar";
 import Profile from "./Profile";
 import ProjectsGrid from "./ProjectsGrid";
 import SkillGrid from "./SkillGrid";
+import Form from "./Form";
 
 const Layout = () => {
   return (
@@ -55,6 +56,7 @@ const Layout = () => {
             <Profile />
             <ProjectsGrid />
             <SkillGrid />
+            <Form />
           </GridItem>
         </Grid>
       </Box>

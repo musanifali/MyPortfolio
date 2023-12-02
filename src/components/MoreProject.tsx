@@ -30,7 +30,7 @@ const ResizableCard = () => {
       name: "Portfolio",
       description: "Auth, React, ChakraUI, TypeScript, Node, React-Hook-Form",
       logo: GoBriefcase,
-      link: "https://github.com/musanifali/ShopFusion-B",
+      link: "https://www.musanif.shop/",
     },
     {
       name: "Issue Tracker",

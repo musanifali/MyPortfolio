@@ -15,7 +15,10 @@ import { FaInstagram } from "react-icons/fa";
 
 const Profile = () => {
   return (
-    <Card bgGradient="linear(to-r, green.200, pink.500)">
+    <Card
+      margin={3}
+      bgGradient="linear(45deg, #ff9a9e 20%, #fad0c4 99%, #fad0c4 100%)"
+    >
       <CardBody>
         <HStack
           justifyContent={{

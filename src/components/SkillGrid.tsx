@@ -21,8 +21,8 @@ const GridWithSections: React.FC = () => {
         alignItems={{ lg: "center" }}
       >
         <Box
-          marginLeft={{ lg: 15, md: 8, sm: 8 }}
-          marginRight={{ lg: 0, md: 8, sm: 8 }}
+          marginLeft={{ lg: 15, md: 8, sm: 14 }}
+          marginRight={{ lg: 0, md: 8, sm: 14 }}
           style={isLargeScreen ? { marginBottom: "40%" } : {}}
         >
           <Heading marginBottom={5} fontSize={"large"}>

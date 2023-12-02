@@ -5,13 +5,15 @@ import ConceptPage from "./web/ConceptPage";
 
 const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Layout />} />
-        <Route path="/webtech" element={<MiniProject />} />
-        <Route path="/:concept" element={<ConceptPage />} />
-      </Routes>
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Layout />} />
+          <Route path="/webtech" element={<MiniProject />} />
+          <Route path="/:concept" element={<ConceptPage />} />
+        </Routes>
+      </Router>
+    </>
   );
 };
 
